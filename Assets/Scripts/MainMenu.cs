@@ -13,4 +13,9 @@ public class MainMenu : MonoBehaviour
         Application.Quit();
     }
 
+    public void setFullscreen (bool isFullscreen)
+    {
+        Screen.fullScreen = isFullscreen;
+    }
+
 }
