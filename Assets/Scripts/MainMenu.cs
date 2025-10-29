@@ -18,4 +18,8 @@ public class MainMenu : MonoBehaviour
         Screen.fullScreen = isFullscreen;
     }
 
+    public void Tutorial()
+    {
+        SceneManager.LoadScene("TutorialScene");
+    }
 }
